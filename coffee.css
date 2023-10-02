@@ -1,0 +1,72 @@
+.coffee-header{
+    background-color: #0a2d42;
+    width: 100%;
+    height: 100px;
+    position:fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 100;
+}
+.div-logo{
+    float: left;
+    height: 100%;
+    margin: 10px;
+    text-align: center;
+}
+.text-logo{
+    color: white;
+    display: block;
+    font-family: Helvetica ;
+    font-weight: bold;
+}
+.coffee-nav{
+    float:right;
+    height: 100%;
+}
+.coffee-nav a{
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    font-family:Helvetica ;
+    padding-top: 12%;
+    padding-right: 25px;
+}
+
+.image-content{
+    background-image: url(./background-image.jpg);
+    height: 700px;
+    width: 100%;
+}
+.site-content{
+    position: absolute;
+    top: 78px;
+    width: 100%;
+    right: 0px;
+    left: 0px;
+}
+.quote{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card-list{
+    width: 100%;
+}
+#product{
+    text-align: center;
+}
+.card{
+    width: 22%;
+    padding: 1.5%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    display: inline;
+}
+.card img{
+    width: 100%;
+}
